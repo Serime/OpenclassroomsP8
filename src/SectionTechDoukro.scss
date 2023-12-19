@@ -1,0 +1,268 @@
+.SectionTechDoukro {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  .LogoTech{
+    border-style: dashed;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 10%;
+    height: 10%;
+    object-fit: contain;
+  }
+  .Docker {
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    top: 60%;
+    left: 65%;
+    border-style: solid;
+    transform: translate(-50%, -50%);
+    background-color: rgba(29,99,237,0.5);
+    box-shadow: 5px -5px 7px 4px rgba(0,0,0,0.66);
+    border-radius: 15%;
+    border-width: 8px;
+    box-sizing: border-box;
+    .LogoDocker {
+      position: absolute;
+      top: -7%;
+      left: 0%;
+      width: 100%;
+      height: 30%;      
+    }
+    .NodeJS {
+      position: absolute;
+      top: 20%;
+      left: 5%;
+      width: 90%;
+      height: 75%;
+      border-style: solid;
+      background-color: rgba(20, 100, 0, 0.5);
+      box-shadow: 5px -5px 7px 4px rgba(0,0,0,0.66);
+      border-radius: 15%;
+      border-width: 8px;
+      box-sizing: border-box;
+      .LogoNodeJS {
+        position: absolute;
+        top: 5%;
+        left: 25%;
+        width: 50%;
+        height: 15%;
+      }
+      .LogoExpress {
+        position: absolute;
+        top: 45%;
+        width: 60%;
+        height: 25%;
+        padding: 0% 15%;
+        border-radius: 30px;
+        border-style: solid;
+        background-color: white;
+        box-shadow: 5px -5px 7px 1px rgba(0,0,0,0.66);
+        transform: translate(-50%, -50%);
+        border-width: 6px;
+        box-sizing: border-box;
+      }
+      .LogoSocketIO {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        width: 60%;
+        height: 25%;
+        padding: 0% 15%;
+        border-radius: 30px;
+        border-style: solid;
+        background-color: white;
+        box-shadow: 5px -5px 7px 1px rgba(0,0,0,0.66);
+        transform: translate(-50%, -50%);
+        border-width: 6px;
+        box-sizing: border-box;
+      }
+      .MongoConnection {
+        top: 45%;
+        left: 55%;
+        width: 133%;
+        height: 35%;
+        border-radius: 30px;
+        position: absolute;
+        border-style: dashed dashed dashed none;
+      }
+      .ReactExpressConnectionRight {
+        top: 40%;
+        left: -100%;
+        width: 250%;
+        height: 0%;
+        border-radius: 30px;
+        position: absolute;
+        border-style: solid none none none;       
+        border-width: 6px; 
+        box-sizing: border-box;
+        transform: translate(-50%, -50%);
+      }      
+      .ReactExpressConnectionLeft {
+        top: 50%;
+        left: -100%;
+        width: 250%;
+        height: 0%;
+        border-radius: 30px;
+        position: absolute;
+        border-style: solid none none none;       
+        border-width: 6px; 
+        box-sizing: border-box;
+        transform: translate(-50%, -50%);
+      }   
+      .ReactSocketIOConnection {
+        top: 80%;
+        left: -100%;
+        width: 250%;
+        height: 0%;
+        border-radius: 30px;
+        position: absolute;
+        border-style: solid none none none;       
+        border-width: 6px; 
+        box-sizing: border-box;
+        transform: translate(-50%, -50%);
+      }  
+      .ReactExpressMessageRight {
+        top: 40%;
+        left: -70%;
+        border-radius: 30px;
+        position: absolute;
+        border: 2px solid black;
+        box-sizing: border-box;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 4px 15px;
+        span {
+          font-size: 16px;
+        }
+      } 
+      .ReactExpressMessageLeft {
+        top: 50%;
+        left: -100%;
+        border-radius: 30px;
+        position: absolute;
+        border: 2px solid black;
+        box-sizing: border-box;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 4px 15px;
+        span {
+          font-size: 16px;
+        }
+      } 
+      .ReactSocketIOMessage {
+        top: 80%;
+        left: -85%;
+        border-radius: 30px;
+        position: absolute;
+        border: 2px solid black;
+        box-sizing: border-box;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 5px 15px;
+        span {
+          font-size: 16px;
+        }
+      }  
+      .arrow {
+        position: absolute;            
+        border: solid black;
+        border-width: 0 6px 6px 0;
+        padding: 12px;
+        z-index: 1;
+      }
+      .ExpressRight {
+        top: 40%;
+        left: -50%; 
+        transform: translate(-50%, -50%) rotate(-45deg);
+      }
+      .ExpressLeft {
+        top: 50%;   
+        left: -120%;
+        transform: translate(-50%, -50%) rotate(135deg);
+      }
+      .SocketIORight {
+        top: 80%;
+        left: -50%; 
+        transform: translate(-50%, -50%) rotate(-45deg);
+      }
+      .SocketIOLeft {
+        top: 80%;   
+        left: -120%;
+        transform: translate(-50%, -50%) rotate(135deg);
+      }
+    }
+  }
+  
+  .FrontEnd {
+    top: 5%;
+    left: 25%;
+  }
+  .BackEnd {
+    top: 5%;
+    left: 75%;
+  }
+  .LogoReact {
+    top: 70%;
+    left: 25%;
+    height: 25%;
+    width: 10%;
+    border-style: solid;
+    box-shadow: 5px -5px 7px 1px rgba(0,0,0,0.66);
+    transform: translate(-50%, -50%);
+    object-fit: fill;
+    z-index: 1;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    border-width: 6px;
+  }
+  .LogoMongoDB {
+    top: 70%;
+    left: 87.5%;
+    border-style: solid;
+    box-shadow: 5px -5px 7px 1px rgba(0,0,0,0.66);
+    transform: translate(-50%, -50%);
+    object-fit: fill;
+    z-index: 1;
+    border-radius: 30px;
+    border-width: 6px;    
+  } 
+}
+
+@media (max-width: 1280px) {
+}
+
+/*
+.CubeTop {
+      transform: skew(-45deg) translate(-50%, -50%);
+      top: 30%;
+      left: 75%;
+      border: 1vh solid red;
+      box-sizing: border-box;
+      position: absolute;
+      width: 10%;
+      height: 10%;
+    }   
+    .CubeSide {
+      transform: skew(-5deg) translate(-50%, -50%);
+      top: 50%;
+      left: 85%;
+      border: 1vh solid red;
+      box-sizing: border-box;
+      position: absolute;
+      width: 10%;
+      height: 25%;
+    }
+    .CubeFace {
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 75%;
+      border: 1vh solid red;
+      box-sizing: border-box;
+      position: absolute;
+      width: 10%;
+      height: 25%;
+    } 
+*/
