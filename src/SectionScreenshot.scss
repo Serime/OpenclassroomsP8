@@ -1,0 +1,66 @@
+.SectionScreenshot {
+  background-color: grey;
+  .wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .container {
+      height: 500px;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: start;
+      .card {
+        width: 80px;
+        border-radius: .75rem;
+        background-size: cover;
+        cursor: pointer;
+        overflow: hidden;
+        border-radius: 2rem;
+        margin: 0 10px;
+        display: flex;
+        align-items: flex-end;
+        transition: .6s cubic-bezier(.28,-0.03,0,.99);
+        box-shadow: 0px 10px 30px -5px rgba(17, 14, 14, 0.8);
+        img {
+          height: 100%;
+          width: 800px;
+          object-fit: fill;
+        }
+        .row {
+          position: relative;
+          height: 100%;
+          width: 100%;
+          color: white;
+          display: flex;
+          flex-wrap: nowrap;
+          .icon {
+            position: absolute;
+            bottom: 0px;
+            background: #223;
+            color: white;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px;
+          }
+        }
+      }    
+      input {
+        display: none;
+      }    
+      input:checked + label {
+        width: 800px;
+      }
+      input:checked + label .description {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+      }  
+    }
+  }
+}

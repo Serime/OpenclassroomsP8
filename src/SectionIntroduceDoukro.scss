@@ -1,0 +1,13 @@
+.SectionIntroduceDoukro{
+  background-color: grey;
+  .Card_Images{
+    display: flex;
+    justify-content: center;
+    padding: 0px 150px;
+    flex-wrap: wrap;
+    gap: 5vw;
+    img {
+      width: 25vw;
+    }
+  }
+}
