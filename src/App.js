@@ -22,12 +22,12 @@ function App() {
       <section className='SectionKasa'>
         <h2>Kasa</h2>
         <p>Intégration d'une maquette <strong>Figma</strong> avec une <strong>React</strong> tout en étant <strong>responsive</strong> et en faisant attention à l'<strong>accessiblilité</strong></p>
-        <div>
+        <div className='ImageKasa'>
           <img id='ImageMobile' src='Kasa_Mobile.png' alt="Capture d'écran mobile du site Kasa"></img>
           <img id='ImageDesktop' src='Kasa_Desktop.png' alt="Capture d'écran du site Kasa"></img>
         </div>
         <div className='buttons'>
-          <button>Voir le site</button>
+          <button>SITE</button>
           <button>
             <img id='GitHub_Name' src='github-mark.svg' alt="Capture d'écran du site Kasa"></img>
             <img id='GitHub_Logo' src='GitHub_Logo.png' alt="Capture d'écran du site Kasa"></img>

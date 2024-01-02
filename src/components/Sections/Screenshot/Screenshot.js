@@ -46,7 +46,7 @@ function SectionScreenshot() {
         </div>
       </div>
       <div className='buttons'>
-        <button>Voir le site</button>
+        <button>SITE</button>
         <button>
           <img id='GitHub_Name' src='github-mark.svg' alt="Capture d'écran du site Kasa"></img>
           <img id='GitHub_Logo' src='GitHub_Logo.png' alt="Capture d'écran du site Kasa"></img>
