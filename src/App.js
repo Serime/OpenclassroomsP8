@@ -2,8 +2,8 @@ import './App.css';
 import './SectionTechDoukro.scss';
 import './SectionIntroduceDoukro.scss';
 import './SectionKasa.scss';
-import './Header.scss';
 import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 import SectionScreenshot from './components/Sections/Screenshot/Screenshot';
 
 // <a href='https://serime.github.io/' target="_blank" rel="noreferrer">Lien du site</a>
@@ -11,17 +11,12 @@ import SectionScreenshot from './components/Sections/Screenshot/Screenshot';
 function App() {
   return (
     <div className="App">
-      <header>
-        <div className='gradient-border'>
-          <div>
-            <h1>Nicolas Gaillard-Melac</h1>
-            <span>Développeur Web</span>
-          </div>
-        </div>
-      </header>
+      <Header/>
       <section className='SectionKasa'>
         <h2>Kasa</h2>
         <p>Intégration d'une maquette <strong>Figma</strong> avec une <strong>React</strong> tout en étant <strong>responsive</strong> et en faisant attention à l'<strong>accessiblilité</strong></p>
+        <h3>Difficulté du projet</h3>
+        <p>Réalisation d'un carrousel infini animé avec des translations successives <br/> Notamment la transition entre la première et dernière image du carrousel.</p>
         <div className='ImageKasa'>
           <img id='ImageMobile' src='Kasa_Mobile.png' alt="Capture d'écran mobile du site Kasa"></img>
           <img id='ImageDesktop' src='Kasa_Desktop.png' alt="Capture d'écran du site Kasa"></img>
@@ -36,7 +31,6 @@ function App() {
       </section>
       <section className='SectionIntroduceDoukro'>
         <h2>Mon projet du moment</h2>
-        <span>Doukro</span>
         <p>Un jeu de carte en <strong>multijoueur temps réel</strong> dont les images des cartes sont généré par <strong>IA</strong></p>
         <div className='Card_Images'>
           <img src='Card_Images/Border crossing.png' alt="Carte Border crossing du jeu Doukro"></img>
@@ -47,7 +41,11 @@ function App() {
       </section>
       <section className='SectionTechDoukro'>
         <h3>Architecture global du projet</h3>
-        <p>Une application web <strong>React</strong> avec une <strong>API</strong> pour l'authentification des utilisateurs et les <strong>WebSocket</strong> pour le temps réel</p>
+        <p>Une application web <strong>React</strong> pour le front-end 
+        <br/>Un back-end en <strong>NodeJS</strong> dans un conteneur <strong>Docker</strong> héberger sur un <strong>VPS</strong>.</p>
+        <h3>Difficultés du projet</h3>
+        <p>-Création d'un certificat SSL pour l'utilisation du HTTPS.
+        <br/>-Reconnection d'un utilisateur en cours de parties.</p>
         <img className='LogoTech LogoReact' src='Tech_Logo/React.png' alt='Logo de React'/>
         <img className='LogoTech LogoMongoDB' src='Tech_Logo/MongoDB.png' alt='Logo de MongoDB'/>
         <div className='Docker'>
