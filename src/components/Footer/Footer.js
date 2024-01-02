@@ -35,7 +35,7 @@ function Footer() {
   return (
     <footer>
       <form onSubmit={handleSubmit}>
-        <h3 class="title">Contact</h3>                  
+        <h2 class="title">Contact</h2>                  
         <label for="name">
           <input class="input" type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} placeholder="" required/>
           <span>Nom</span>
