@@ -2,9 +2,9 @@ import './App.css';
 import './SectionTechDoukro.scss';
 import './SectionIntroduceDoukro.scss';
 import './SectionKasa.scss';
-import './SectionScreenshot.scss';
 import './Header.scss';
 import Footer from './components/Footer/Footer';
+import SectionScreenshot from './components/Sections/Screenshot/Screenshot';
 
 // <a href='https://serime.github.io/' target="_blank" rel="noreferrer">Lien du site</a>
 
@@ -76,70 +76,10 @@ function App() {
           </div>
         </div>        
       </section>
-      <section className='SectionScreenshot'>
-        <div className="wrapper">
-        <h3>Capture d'écran</h3>
-          <div className="container">
-            <input type="radio" name="slide" id="c1" checked/>
-            <label for="c1" className="card">
-              <div className="row">
-                <img src='Partie en cours.png' alt="Capture d'écran du jeu Doukro"></img>
-                <div className="icon">1</div>
-              </div>
-            </label>
-            <input type="radio" name="slide" id="c2"/>
-            <label for="c2" className="card">
-              <div className="row">
-                <img src='./Card_Images/Former blacksmith.png' alt="Capture d'écran du jeu Doukro"></img>
-                <div className="icon">2</div>
-              </div>
-            </label>
-            <input type="radio" name="slide" id="c3"/>
-            <label for="c3" className="card">
-              <div className="row">
-                <img src='./Card_Images/Knight guarding the entrance to the city.png' alt="Capture d'écran du jeu Doukro"></img>
-                <div className="icon">3</div>
-              </div>
-            </label>            
-            <input type="radio" name="slide" id="c4"/>
-            <label for="c4" className="card">
-              <div className="row">
-                <img src='./Card_Images/Border crossing.png' alt="Capture d'écran du jeu Doukro"></img>
-                <div className="icon">4</div>
-              </div>
-            </label>
-          </div>
-        </div>
-        <div className='buttons'>
-          <button>Voir le site</button>
-          <button>
-            <img id='GitHub_Name' src='github-mark.svg' alt="Capture d'écran du site Kasa"></img>
-            <img id='GitHub_Logo' src='GitHub_Logo.png' alt="Capture d'écran du site Kasa"></img>
-          </button>
-        </div>
-      </section>
+      <SectionScreenshot/>
       <Footer/>
     </div>
   );
 }
-
-/*
-
-        <form>
-          <div>
-            <label for="nom">Nom :</label>
-            <input type="text" id="nom" name="nom" required/>
-          </div>
-          <div>
-            <label for="email">Adresse e-mail :</label>
-            <input type="email" id="email" name="email" required/>
-          </div>
-          <div>
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-          </div>
-          <button onClick={() => sendMail()}>Envoyer</button>
-        </form>
-*/
 
 export default App;
